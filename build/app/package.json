@@ -1,0 +1,25 @@
+{
+  "name": "think-see",
+  "productName": "think-see",
+  "version": "3.0.4",
+  "description": "显示基金涨跌状态栏小应用,数据源来自天天基金等",
+  "main": "./dist/main/main.prod.js",
+  "author": {
+    "name": "caoyi",
+    "email": "donyi1844@163.com",
+    "url": "https://github.com/doncaoyi"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../../.erb/scripts/babel-register.js ../../.erb/scripts/electron-rebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "(ISC OR GPL-3.0)",
+  "dependencies": {},
+  "bugs": {
+    "email": "donyi1844@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doncaoyi"
+  }
+}

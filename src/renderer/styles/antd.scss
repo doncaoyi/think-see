@@ -1,0 +1,26 @@
+@import '~antd/dist/antd.compact.css';
+
+.ant-tabs-nav::before {
+  border: none !important;
+}
+
+.ant-dropdown-trigger {
+  color: var(--primary-color);
+}
+
+.ant-rate-star-zero {
+  svg {
+    fill: var(--inner-text-color);
+  }
+}
+
+.ant-slider {
+  margin: 0;
+}
+.ant-tabs-tab + .ant-tabs-tab {
+  margin: 0;
+}
+
+.ant-drawer-body::-webkit-scrollbar {
+  width: 0;
+}

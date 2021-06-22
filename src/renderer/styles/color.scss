@@ -1,0 +1,43 @@
+.block-up {
+  background-color: var(--increase-color);
+  box-shadow: 0 2px 5px var(--increase-color);
+  transition: all .3s;
+}
+
+.block-down {
+  background-color: var(--reduce-color);
+  box-shadow: 0 2px 5px var(--reduce-color);
+  transition: all .3s;
+}
+
+.bg-up {
+  transition: all .3s;
+
+  &:hover {
+    background-image: linear-gradient(to right, var(--background-color), var(--increase-bg-color)) !important;
+  }
+}
+
+.bg-down {
+  transition: all .3s;
+
+  &:hover {
+    background-image: linear-gradient(to right, var(--background-color), var(--reduce-bg-color)) !important;
+  }
+}
+
+.text-up {
+  color: var(--increase-color);
+}
+
+.text-down {
+  color: var(--reduce-color);
+}
+
+.svg-up {
+  fill: var(--increase-color);
+}
+
+.svg-down {
+  fill: var(--reduce-color);
+}

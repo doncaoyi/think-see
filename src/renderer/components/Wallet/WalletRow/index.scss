@@ -1,0 +1,63 @@
+.row {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.icon {
+  transition: all 0.2s;
+  height: calc(40rem / var(--base-font-size));
+  width: calc(40rem / var(--base-font-size));
+  display: block;
+  z-index: 2;
+  margin-right: 10px;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.rowInfo {
+  flex: 1;
+  z-index: 2;
+  color: var(--main-text-color);
+}
+.editor {
+  height: 12px;
+  width: 12px;
+  cursor: pointer;
+}
+.remove {
+  z-index: 2;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.checkbox {
+  fill: var(--primary-color);
+  z-index: 2;
+}
+
+.readonly {
+  cursor: default;
+  border: none;
+
+  &:hover {
+    transform: none;
+  }
+}
+.extra {
+  height: 12px;
+  width: 12px;
+  fill: var(--svg-icon-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.time {
+  font-size: calc(10rem / var(--base-font-size));
+  color: var(--secondary-main-text-color);
+}
